@@ -1,2 +1,41 @@
 body {
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex; 
+    flex: space-between;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+}
+
+nav button {
+    border: none;
+    background: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav button:hover {
+    text-decoration: underline;
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-card {
+    margin: auto;
+    text-align: center;
+    
+
+}
+
+#logo-img {
+    height: auto;
+    width: 500px;
 }
