@@ -9,6 +9,7 @@ function homePage() {
 
   let logo = document.createElement("img");
   logo.src = pizzaLogo;
+  logo.id = "logo-img";
 
   let subtitle = document.createElement("p");
   subtitle.id = "subtitle";
