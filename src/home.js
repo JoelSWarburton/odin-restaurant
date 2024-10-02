@@ -2,6 +2,7 @@ import pizzaLogo from "./pizza-logo.png";
 
 function homePage() {
   let content = document.querySelector("#content");
+  content.textContent = "";
 
   let title = document.createElement("h1");
   title.id = "page-title";
